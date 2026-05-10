@@ -1,50 +1,111 @@
-# Welcome to your Expo app 👋
+# FoodCompanion Frontend 🍱📍🤖
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+FoodCompanion is a full-stack mobile application that helps users discover home-cooked tiffin services available along their daily commute route.
 
-## Get started
+Users can:
+- Search tiffin providers on their route
+- View kitchen details
+- Place food orders
+- Track order updates
+- Save favorite kitchens
+- Use AI Recipe Assistant to generate recipes based on available ingredients
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## Features
 
-2. Start the app
+### Consumer Features
+- User Registration/Login
+- Search route between source and destination
+- Find kitchens available on route
+- View kitchen details
+- Place food orders
+- Save favorite kitchens
+- View kitchen location on map
+- AI Recipe Assistant
 
-   ```bash
-   npx expo start
-   ```
+### Cook Features
+- Register/Login
+- Create kitchen profile
+- Add menu
+- Manage availability
+- View customer orders
+- Update order status
 
-In the output, you'll find options to open the app in a
+### AI Feature
+Users can enter:
+- Available ingredients
+- Diet type (Veg/Non-Veg)
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+AI generates:
+- Dish names
+- Cooking steps
+- Required ingredients
+- Estimated cooking time
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+---
 
-## Get a fresh project
+## Tech Stack
 
-When you're ready, run:
+- React Native
+- Expo
+- TypeScript
+- Expo Router
+- React Native Maps
+- AsyncStorage
+- Axios
+
+---
+
+## Screens
+
+- Authentication
+- Consumer Dashboard
+- Cook Dashboard
+- Route Search
+- Kitchen Details
+- Order Tracking
+- AI Recipe Assistant
+
+---
+
+## Installation
 
 ```bash
-npm run reset-project
+git clone <https://github.com/prabh2002/foodcompanion-frontend.git>
+cd frontend
+npm install
+npx expo start
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-## Learn more
+## APK Build
 
-To learn more about developing your project with Expo, look at the following resources:
+Built using:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+- Expo EAS Build
 
-## Join the community
+---
 
-Join our community of developers creating universal apps.
+## Backend Repository
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Backend Repo:
+https://github.com/prabh2002/foodcompanion-backend.git
+
+---
+
+## Future Improvements
+
+- Production-level map support in APK
+- Push notifications
+- Payment gateway integration
+- Real-time socket updates
+- Subscription meal plans
+
+---
+
+## Author
+
+Prabhat
+B.Tech CSE Student | Full Stack + AI Enthusiast
